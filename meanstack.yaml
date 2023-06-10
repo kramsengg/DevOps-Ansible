@@ -1,0 +1,12 @@
+---
+
+- hosts: all
+  become: true
+  vars:
+    # variable needed during node installation
+    ansible_become_pass: edureka
+    var_node: /tmp
+  roles:
+    - prerequisties
+    - mongodb
+    - nodejs
