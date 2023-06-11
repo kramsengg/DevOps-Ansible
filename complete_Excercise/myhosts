@@ -1,0 +1,9 @@
+[proxy]
+node1
+
+[webservers]
+node2
+node3
+
+[dbservers]
+node4
